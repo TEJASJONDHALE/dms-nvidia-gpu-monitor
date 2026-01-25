@@ -1,0 +1,17 @@
+*.qmlc
+*.jsc
+*.qmake.stash
+*.qmake.cache
+.qmake.cache
+.qmake.stash
+
+*.user
+*.user.*
+*.autosave
+
+*~
+*.swp
+*.swo
+
+.DS_Store
+Thumbs.db

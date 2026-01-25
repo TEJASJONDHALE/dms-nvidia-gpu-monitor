@@ -1,0 +1,14 @@
+{
+	"id": "nvidiaGpuMonitor",
+	"name": "NVIDIA GPU Monitor",
+	"description": "Monitor NVIDIA GPU usage, VRAM, and temperature.",
+	"category": "monitoring",
+	"version": "1.0.0",
+	"author": "Tejas",
+	"type": "widget",
+	"capabilities": ["dankbar-widget", "monitoring"],
+	"component": "./NvidiaWidget.qml",
+	"icon": "memory",
+	"requires": ["nvidia-utils"],
+	"permissions": ["process"]
+}
