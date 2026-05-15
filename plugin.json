@@ -9,5 +9,6 @@
 	"dependencies": ["nvidia-smi"],
 	"compositors": ["any"],
 	"distro": ["any"],
-	"screenshot": "https://raw.githubusercontent.com/TEJASJONDHALE/dms-nvidia-gpu-monitor/main/Screenshot.png"
+	"screenshot": "https://raw.githubusercontent.com/TEJASJONDHALE/dms-nvidia-gpu-monitor/main/Screenshot.png",
+	"component": "NvidiaWidget.qml"
 }
