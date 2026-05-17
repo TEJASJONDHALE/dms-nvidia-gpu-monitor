@@ -91,7 +91,7 @@ PluginComponent {
             StyledText {
                 text: `${root.gpuUsage.toFixed(0)}% | ${(root.vramUsed / 1024).toFixed(1)}GB`
                 font.pixelSize: Theme.fontSizeSmall
-                color: Theme.primary
+                color: Theme.surfaceText
                 anchors.verticalCenter: parent.verticalCenter
             }
         }
