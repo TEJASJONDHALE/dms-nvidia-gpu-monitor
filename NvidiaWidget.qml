@@ -308,7 +308,7 @@ done
                         spacing: Theme.spacingXS
 
                         StyledText {
-                            text: "Top GPU Processes"
+                            text: "Processes"
                             color: Theme.surfaceVariantText
                             font.pixelSize: Theme.fontSizeSmall
                         }
