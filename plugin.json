@@ -1,15 +1,24 @@
 {
-	"id": "nvidiaGpuMonitor",
-	"name": "NVIDIA GPU Monitor",
-	"version": "2.0.0",
-	"capabilities": ["dankbar-widget", "monitoring"],
-	"category": "monitoring",
-	"repo": "https://github.com/TEJASJONDHALE/dms-nvidia-gpu-monitor",
-	"author": "Tejas Jondhale",
-	"description": "Monitor NVIDIA GPU usage, VRAM, temperature, power and GPU processes.",
-	"dependencies": ["nvidia-smi"],
-	"compositors": ["any"],
-	"distro": ["any"],
-	"screenshot": "https://raw.githubusercontent.com/TEJASJONDHALE/dms-nvidia-gpu-monitor/main/Screenshot.png",
-	"component": "NvidiaWidget.qml"
+    "id": "nvidiaGpuMonitor",
+    "name": "NVIDIA GPU Monitor",
+    "version": "2.0.0",
+    "capabilities": [
+        "dankbar-widget",
+        "monitoring"
+    ],
+    "category": "monitoring",
+    "repo": "https://github.com/TEJASJONDHALE/dms-nvidia-gpu-monitor",
+    "author": "Tejas Jondhale",
+    "description": "Monitor NVIDIA GPU usage, VRAM, temperature, power and GPU processes.",
+    "dependencies": [
+        "nvidia-smi"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/TEJASJONDHALE/dms-nvidia-gpu-monitor/main/Screenshot.png",
+    "component": "./NvidiaWidget.qml"
 }
