@@ -2,16 +2,21 @@
 
 A native **NVIDIA** GPU monitoring widget for [DankMaterialShell](https://github.com/DankMaterialShell/DankMaterialShell).
 
-This plugin provides a real-time, animated dashboard for your NVIDIA graphics card, displaying GPU utilization, VRAM usage, temperature, and power draw directly in your shell.
-
 ![Screenshot](Screenshot.png)
 
 ## Requirements
 
-* **DankMaterialShell**
-* **NVIDIA Drivers**
-* **nvidia-utils** (provides `nvidia-smi`)
+* DankMaterialShell
+* NVIDIA drivers
+* `nvidia-utils` (provides `nvidia-smi`)
 
 ```bash
-# Check if you have the tool installed:
+# Check that the tool works:
 nvidia-smi
+```
+
+## Notes
+
+* Stats come from the first NVIDIA GPU.
+* Per-process VRAM may show `--` on drivers or containers that don't expose it.
+* Polling an awake GPU can keep it from entering runtime suspend. Adjust `updateInterval` in `NvidiaWidget.qml` if that matters on battery.
